@@ -1,22 +1,23 @@
 [[_TOC_]]
 # Assortment
 
-import styles from '../../components/infobox.module.css';
+import Infobox from '../../components/infobox';
 
 export default function Page() {
   return (
     <div>
-      <div className={styles.infobox}>
-        <img src="/assets/images/project-image.png" alt="Project Image" className={styles.infoboxImage} />
-        <p><strong>Full Name:</strong> Project Full Name</p>
-        <p><strong>Age:</strong> Project Age</p>
-        <p><strong>Description:</strong> Brief description of the project.</p>
-      </div>
+      <Infobox 
+        imageSrc="/assets/images/project-image.png"
+        fullName="Project Full Name"
+        age="Project Age"
+        description="Brief description of the project."
+      />
       <h1>Project Name</h1>
       <p>Welcome to the project page...</p>
     </div>
   );
 }
+
 
 ## TL;DR
 
