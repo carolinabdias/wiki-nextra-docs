@@ -1,7 +1,7 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "README.md",
+  "exemplo": "Exemplo",
+  "specializations": "Specializations",
   "about": {
     "title": "About",
     "type": "page"
