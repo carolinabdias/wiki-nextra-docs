@@ -1,5 +1,5 @@
 // components/Infobox.tsx
-import styles from './counters.module.css';
+import styles from './infobox.module.css';
 
 interface InfoboxProps {
   imageSrc: string;
